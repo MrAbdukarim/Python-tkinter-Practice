@@ -1,17 +1,15 @@
 from tkinter import *
 
 window = Tk()
-window.geometry("420x420")
-window.title("Programming")
-window.config(background="#333")
+window.title("Created by MrAbdukarim")
+window.geometry('420x420')
 
-# win_text = Text(window, text="Hello World!")World
+icon = PhotoImage(file='logo.png')
+window.iconphoto(True, icon)
 
-# label = Label(window, text="Hello World!", font=("Arial", 30, "bold"))
-# label.pack()
-# label.place(x=0, y=100)
+text = Label(text="MrAbdukarim", font=152)
+text.pack()
 
-button = Button(window, text="Click Me!!!", padx=10, pady=10)
-button.pack()
+window.config(background='#333')
 
 window.mainloop()
